@@ -1,0 +1,6 @@
+$LOGENTRIES_TOKEN = '2c6b8d04-6a2a-4cd1-8f7a-7e1b2e544d85';
+
+require_once dirname(__FILE__) . '/le_php-master/logentries.php';
+
+$log->Info("Hello Logentries");
+$log->Warn("I'm a warning message");
